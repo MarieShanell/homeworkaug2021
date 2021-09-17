@@ -28,6 +28,12 @@ function preparePizza(...myArray) {
   }
 }
 preparePizza(pizzaToppings);
+
+function servePizza()
+  console.log(`pizza is ready ${servePizza} enjoy!`);
+
+servePizza();
+
 //  console.log(get)
 //  preparePizza();
 

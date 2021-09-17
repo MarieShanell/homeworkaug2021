@@ -28,7 +28,6 @@ function checkCircusRides() {
     console.log("Try the bumper cars!");
   }
   console.log("Enjoy the roller coaster!");
-  console.log(checkCircusRides();)
 }
-
+console.log(checkCircusRides());
 // change the function above to use short circuiting
