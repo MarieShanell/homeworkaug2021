@@ -80,3 +80,7 @@ p {
   text-align: center;
   color: darkorange;
 }
+
+div + p {
+  background-color: powderblue;
+}
