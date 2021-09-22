@@ -17,7 +17,7 @@ body {
 }
 body:child {
   margin: 20px;
-}
+  font-size: 2em}
 h1 {
 color:aqua
 }
@@ -25,9 +25,12 @@ color:aqua
 h2 {
 color:aqua
 }
+
 h3 {
-    color:aqua
-    }
+ color:aqua
+}
+
+
 nav {
   background-color: #997bc9;
 }
@@ -71,4 +74,9 @@ nav ul a li {
   margin-right: auto;
   height: 500px;
   width: 500px;
+}
+
+p {
+  text-align: center;
+  color: darkorange;
 }
