@@ -75,12 +75,32 @@ nav ul a li {
   height: 500px;
   width: 500px;
 }
+/* element selector */
 
 p {
   text-align: center;
   color: darkorange;
 }
 
+/* complex selector */
+
 div + p {
   background-color: powderblue;
+}
+
+/* id selector */
+#firstid {
+  text-align: center;
+  color:yellow;
+}
+
+#secondid {
+  text-align: center;
+  color:yellow;
+}
+
+
+#thirdid {
+  text-align: center;
+  color:yellow;
 }
