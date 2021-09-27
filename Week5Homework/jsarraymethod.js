@@ -234,16 +234,10 @@ const data = [
 //answer for part 1 of question 1 of homework
 const numbers = data.forEach((user) => console.log(user.phone));
 
-//answer for part 2 of question 1 of homework
-// const information = [];
-
-// const informationpairs = data.forEach(user => user.email.push(user.website));
-
-// console.log(information);
-
+//part 1 question 2 of homework
 const information = [];
 
-data.forEach(curr => {
+data.forEach((curr) => {
   let website = curr.website;
   let email = curr.email;
   information.push([website, email]);
