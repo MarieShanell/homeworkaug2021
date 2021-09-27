@@ -1210,7 +1210,11 @@ const data = [
   },
 ];
 
+// const user9tasks = data.filter(user => user.userId === 9);
+//  console.log(user9tasks);
 
-const user9tasks = data.filter(user => user.userId === 9);
- console.log(user9tasks);
- 
+const user9todo = data.filter((user) => user.userId === 9);
+console.log(user9todo);
+
+const incompleteTasks = data.filter((tasks) => tasks.completed === false);
+console.log(incompleteTasks);
