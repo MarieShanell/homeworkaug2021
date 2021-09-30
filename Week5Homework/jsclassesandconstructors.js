@@ -17,5 +17,19 @@ greet(){
 }
 }
 
-const Pepper = new Dog("Pepper", "black", "small", "play");
+const Pepper = new Yorkie("Pepper", "black", "small", "play");
 console.log(Pepper.greet());
+
+class personality extends Dog{
+  constructor(name, color, size, hobbies, personality){
+    super(name, color, size,hobbies);
+    this.personality = personality;
+  }
+
+greet(){
+    return `Hello I'm ${this.name} and I'm very ${this.personality}`;
+}
+}
+
+const Dream = new personality("Dream", "black", "small", "play", "sassy");
+console.log(Dream.greet());

@@ -13,6 +13,7 @@ h1 {
 
 img {
   height: 100%;
+  border: 5px solid rgb(213, 237, 238);
 }
 
 div {
@@ -21,34 +22,32 @@ div {
 }
 
 #introPic {
-  float: left;
-}
+  float: center ;
+  }
 
 #bio {
   float: right;
 }
 #bio > li {
-  padding: 2px;
+  padding: 10px;
+  margin: auto;
 }
 
 #pro {
   width: auto;
 }
 
-
-
-
 @media all and (max-width: 500px) {
-    body {
-        color: blue
-    }
+  body {
+    color: blue;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
+  img {
+    width: 300px;
+  }
 }
-
-
 
 /* @media print {
   .flex > * {

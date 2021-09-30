@@ -603,13 +603,13 @@ const data = [
 
   //create a list of user 5 posts
 const user5posts = data.filter(user => user.userId === 5);
- console.log(user5posts);
+//  console.log(user5posts);
 
 // create a list of title and body pairs
 const pairs = []
-data.forEach((curr) => {
+user5posts.forEach((curr) => {
     let title = curr.title;
     let body = curr.body;
     pairs.push([title, body]);
   });
-  console.log(pairs)
+   console.log(pairs)
